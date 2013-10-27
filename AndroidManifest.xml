@@ -3,7 +3,10 @@
     package="com.example.testrfid"
     android:versionCode="1"
     android:versionName="1.0" >
-
+	<!-- permission + test présence NFC -->
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-feature android:name="android.hardware.nfc" android:required="true" />
+    <!--  -->
     <uses-sdk
         android:minSdkVersion="10"
         android:targetSdkVersion="16" />
